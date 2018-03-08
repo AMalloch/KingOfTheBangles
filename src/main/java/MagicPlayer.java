@@ -29,4 +29,7 @@ public abstract class MagicPlayer extends Player implements IAttack{
         }
         super.takeDamage(damage);
     }
+
+//   could ADD: add attack with Creature --
+
 }
