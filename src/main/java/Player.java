@@ -14,7 +14,6 @@ public abstract class Player extends GameActor implements ISelect{
         this.item = item;
     }
 
-
     public Item getItem() {
         return item;
     }

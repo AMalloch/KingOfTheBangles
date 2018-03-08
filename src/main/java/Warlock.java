@@ -5,6 +5,4 @@ public class Warlock extends MagicPlayer {
         super(name, health, spell, creature);
     }
 
-
-
 }

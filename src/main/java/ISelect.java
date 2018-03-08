@@ -1,4 +1,4 @@
-public interface ISelect {
+public interface ISelect{
 
     void changeItem(Item item);
 }
