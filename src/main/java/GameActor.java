@@ -20,6 +20,7 @@ public abstract class GameActor implements Damageable {
         this.health = health;
     }
 
+    @Override
     public void takeDamage(int damage){
         this.health -= damage;
     }
