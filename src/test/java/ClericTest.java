@@ -22,4 +22,18 @@ public class ClericTest {
         cleric.heal(barbarian);
         assertEquals(35, barbarian.getHealth());
     }
+
+    @Test
+    public void canChangeHealingTool() {
+        DeliciousHerbs herbs = new DeliciousHerbs(45);
+        cleric.changeItem(herbs);
+        assertEquals(herbs, cleric.getItem());
+    }
+
+    @Test
+    public void cannotChangeItemToWeapon() {
+        Sword sword = new Sword(20);
+        cleric.changeItem(sword);
+        assertEquals(potion, cleric.getItem());
+    }
 }
