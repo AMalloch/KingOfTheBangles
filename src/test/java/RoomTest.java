@@ -56,4 +56,10 @@ public class RoomTest {
     }
 //    is complete with collected treasure
 
+    @Test
+    public void isCompleteWithCollectedTreasure() {
+        room2.addPlayer(knight);
+        knight.collectTreasure(treasure);
+        assert(room2.isComplete());
+    }
 }
