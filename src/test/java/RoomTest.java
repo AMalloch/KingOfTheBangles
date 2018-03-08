@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 public class RoomTest {
 
@@ -34,7 +35,25 @@ public class RoomTest {
     }
 
 //    is not complete with enemy
+
+    @Test
+    public void isNotCompleteWithEnemy() {
+        assertFalse(room1.isComplete());
+    }
 //    is not complete with treausure
+
+    @Test
+    public void isNotCompleteWithTreasure() {
+        assertFalse(room2.isComplete());
+    }
 //    is complete with dead enemy
+
+    @Test
+    public void isCompleteWithDeadEnemy() {
+        room1.addPlayer(knight);
+        knight.attack(enemy);
+        assert (room1.isComplete());
+    }
 //    is complete with collected treasure
+
 }

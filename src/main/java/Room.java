@@ -23,5 +23,17 @@ public class Room {
     public void addPlayer(Player player) {
         this.players.add(player);
     }
+
+    public boolean isComplete() {
+//      check if the enemy is not there, or is dead
+        boolean enemyCondition = enemy == null || enemy.getHealth() == 0;
+//      check if the treasure is not there or is collected
+        boolean treasureCondition = treasure == null || treasure.isCollected();
+//        if both are true, the room is complete
+        if (enemyCondition && treasureCondition) {
+            completed = true;
+        }
+        return completed;
+    }
 }
 
