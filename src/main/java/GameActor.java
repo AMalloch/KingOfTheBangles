@@ -1,4 +1,4 @@
-public abstract class GameActor {
+public abstract class GameActor implements Damageable {
 
     private String name;
     private int health;
@@ -16,7 +16,7 @@ public abstract class GameActor {
         return health;
     }
 
-    public void setHealth(int health) {
-        this.health = health;
+    public void takeDamage(int damage){
+        this.health -= damage;
     }
 }
