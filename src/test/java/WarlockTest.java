@@ -36,7 +36,7 @@ public class WarlockTest {
         creature = new Creature("Snotling", 1, 1);
         Wizard wizard = new Wizard("Barry", 300, ball, creature);
         warlock.attack(wizard);
-//        need to make Creature health stick at 0
+        assertEquals(0, creature.getHealth());
         assertEquals(300, wizard.getHealth());
         warlock.attack(wizard);
         assertEquals(280, wizard.getHealth());

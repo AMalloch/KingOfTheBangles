@@ -23,6 +23,10 @@ public abstract class GameActor implements Damageable {
     @Override
     public void takeDamage(int damage){
         this.health -= damage;
+//        reset health to 0 if it goes into minus values
+        if (this.health < 0) {
+            setHealth(0);
+        }
     }
 
 
