@@ -9,19 +9,11 @@ public abstract class Player extends GameActor{
     private int satchel;
 
     public Player(String name, int health, ArrayList<Item> inventory) {
-        this.name = name;
-        this.health = health;
+        super(name, health);
         this.inventory = inventory;
         this.selectedItem = this.inventory.get(0);
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getHealth() {
-        return health;
-    }
 
     public Item getSelectedItem() {
         return selectedItem;

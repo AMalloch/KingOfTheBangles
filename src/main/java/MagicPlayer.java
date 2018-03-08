@@ -11,7 +11,7 @@ public abstract class MagicPlayer extends Player implements IAttack{
     @Override
     public void attack(GameActor gameActor) { // can change this to only attack Enemies
         int damage = getSelectedItem().getPower();
-        gameActor.takeDamage(damage);
+//        gameActor.takeDamage(damage);
 
     }
 
