@@ -27,4 +27,10 @@ public class EnemyTest {
         enemy.attack(wizard);
         assertEquals(225, wizard.getHealth());
     }
+
+    @Test
+    public void canTakeDamage() {
+        wizard.attack(enemy);
+        assertEquals(55, enemy.getHealth());
+    }
 }
