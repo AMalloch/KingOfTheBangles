@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public abstract class MagicPlayer extends Player implements IAttack{
     private Creature creature;
 
@@ -16,8 +14,10 @@ public abstract class MagicPlayer extends Player implements IAttack{
     }
 
     @Override
-    public void setSelectedItem() {
-
+    public void changeItem(Item item) {
+        if (item instanceof Spell) {
+            setItem(item);
+        }
     }
 
 

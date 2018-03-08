@@ -23,11 +23,24 @@ public class WarlockTest {
         assertEquals(250, warlock.getHealth());
     }
 
-
     @Test
     public void canAttack() {
         Wizard wizard = new Wizard("Barry", 300, ball, creature);
         warlock.attack(wizard);
         assertEquals(280, wizard.getHealth());
+    }
+
+    @Test
+    public void canChangeSpell() {
+        LightningBolt bolt = new LightningBolt(20);
+        warlock.changeItem(bolt);
+        assertEquals(bolt, warlock.getItem());
+    }
+
+    @Test
+    public void cannotChangeToWeapon() {
+        Sword sword = new Sword(20);
+        warlock.changeItem(sword);
+        assertEquals(ball, warlock.getItem());
     }
 }
