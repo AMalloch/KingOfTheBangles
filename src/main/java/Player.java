@@ -27,4 +27,14 @@ public abstract class Player extends GameActor implements ISelect, IHealth{
         int newHealth = getHealth() + power;
         setHealth(newHealth);
     }
+
+    public int getSatchel() {
+        return satchel;
+    }
+
+    public void collectTreasure(Treasure treasure){
+        int value = treasure.getValue();
+        satchel += value;
+        treasure.getCollected();
+    }
 }

@@ -8,6 +8,7 @@ public class BarbarianTest {
     private Barbarian barbarian;
     private Rogue rogue;
     private Club club;
+    private Treasure treasure;
 
 //    can we hardcode Weapon values ???
 
@@ -16,6 +17,7 @@ public class BarbarianTest {
         club = new Club(50);
         barbarian = new Barbarian("Alan", 200, club);
         rogue = new Rogue("Steve", 150, club);
+        treasure = new Treasure(TreasureType.COIN);
     }
 
     @Test
@@ -36,5 +38,11 @@ public class BarbarianTest {
         ChaosBall ball = new ChaosBall(100);
         rogue.changeItem(ball);
         assertEquals(club, rogue.getItem());
+    }
+
+    @Test
+    public void canCollectTreasure() {
+        barbarian.collectTreasure(treasure);
+        assertEquals(1, barbarian.getSatchel());
     }
 }
