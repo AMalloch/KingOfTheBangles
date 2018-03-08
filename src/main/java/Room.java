@@ -19,5 +19,9 @@ public class Room {
     public int countPlayers() {
         return this.players.size();
     }
+
+    public void addPlayer(Player player) {
+        this.players.add(player);
+    }
 }
 
