@@ -1,7 +1,7 @@
 public abstract class MeleePlayer extends Player implements IAttack{
 
-    public MeleePlayer(String name, int health, Item item) {
-        super(name, health, item);
+    public MeleePlayer(String name, int health, Weapon weapon) {
+        super(name, health, weapon);
     }
 
     @Override
