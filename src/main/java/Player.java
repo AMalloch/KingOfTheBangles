@@ -14,4 +14,8 @@ public abstract class Player {
         this.inventory = inventory;
         this.selectedItem = this.inventory.get(0);
     }
+
+    public int getHealth() {
+        return health;
+    }
 }
