@@ -3,6 +3,8 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static org.junit.Assert.assertEquals;
+
 public class QuestTest {
 
     private Rogue player;
@@ -34,5 +36,12 @@ public class QuestTest {
     @Test
     public void hasPlayers() {
         assert(quest.getPlayers().contains(player));
+    }
+
+    @Test
+    public void startsWithPlayersInFirstRoom() {
+        quest.playNextRoom();
+        Room room = quest.getCurrentRoom();
+        assertEquals(1, room.countPlayers());
     }
 }
