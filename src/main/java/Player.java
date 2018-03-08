@@ -18,4 +18,8 @@ public abstract class Player {
     public int getHealth() {
         return health;
     }
+
+    public int countInventory() {
+        return this.inventory.size();
+    }
 }

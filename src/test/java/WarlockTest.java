@@ -25,4 +25,9 @@ public class WarlockTest {
     public void canGetHealth() {
         assertEquals(250, warlock.getHealth());
     }
+
+    @Test
+    public void hasInventory() {
+        assertEquals(1, warlock.countInventory());
+    }
 }
