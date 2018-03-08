@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Wizard extends MagicPlayer{
-    public Wizard(String name, int health, ArrayList<Item> inventory, Creature creature) {
-        super(name, health, inventory, creature);
+    public Wizard(String name, int health, Spell spell, Creature creature) {
+        super(name, health, spell, creature);
     }
 }

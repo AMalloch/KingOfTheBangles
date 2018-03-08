@@ -1,31 +1,24 @@
+import com.sun.org.apache.bcel.internal.generic.Select;
+
 import java.util.ArrayList;
 
-public abstract class Player extends GameActor{
+public abstract class Player extends GameActor implements ISelect {
 
     private String name;
     private int health;
-    private ArrayList<Item> inventory;
-    private Item selectedItem;
+    private Item item;
     private int satchel;
 
-    public Player(String name, int health, ArrayList<Item> inventory) {
+    public Player(String name, int health, Item item) {
         super(name, health);
-        this.inventory = inventory;
-        this.selectedItem = this.inventory.get(0);
+        this.item = item;
     }
 
 
-    public Item getSelectedItem() {
-        return selectedItem;
+    public Item getItem() {
+        return item;
     }
 
-    public int countInventory() {
-        return this.inventory.size();
-    }
-
-    public ArrayList<Item> getInventory() {
-        return inventory;
-    }
 
 
 }
