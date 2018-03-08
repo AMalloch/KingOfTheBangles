@@ -30,4 +30,11 @@ public class Quest {
     public Room getCurrentRoom() {
         return rooms.get(currentRoom);
     }
+
+    public void checkRoomComplete() {
+        Room room = getCurrentRoom();
+        if (room.isComplete()){
+            currentRoom += 1;
+        }
+    }
 }

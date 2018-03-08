@@ -55,7 +55,7 @@
       <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="230">
               <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
               <folding>
                 <element signature="e#464#465#0" expanded="true" />
@@ -70,7 +70,7 @@
       <file leaf-file-name="RoomTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
+            <state relative-caret-position="452">
               <caret line="62" column="35" lean-forward="false" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -88,8 +88,8 @@
       <file leaf-file-name="QuestTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/QuestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state relative-caret-position="340">
+              <caret line="56" column="37" lean-forward="false" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#975#976#0" expanded="true" />
@@ -102,13 +102,13 @@
       <file leaf-file-name="Quest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Quest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+            <state relative-caret-position="391">
+              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -476,8 +476,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/BarbarianTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoomTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/QuestTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Quest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/QuestTest.java" />
       </list>
     </option>
   </component>
@@ -717,12 +717,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 14h 45m 57s.xml">
-      <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 14h 52m 53s.xml">
-      <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 14h 53m 21s.xml">
       <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
     </history-entry>
@@ -747,6 +741,12 @@
     <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 15h 24m 57s.xml">
       <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 15h 32m 42s.xml">
+      <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 15h 36m 55s.xml">
+      <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -760,7 +760,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1256,9 +1256,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RoomTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="452">
           <caret line="62" column="35" lean-forward="false" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1272,36 +1285,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding>
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Quest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="391">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/QuestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state relative-caret-position="340">
+          <caret line="56" column="37" lean-forward="false" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#975#976#0" expanded="true" />

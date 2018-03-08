@@ -19,7 +19,7 @@ public class QuestTest {
 
     @Before
     public void setUp() throws Exception {
-        enemy = new Enemy("Jacob", 45, 2);
+        enemy = new Enemy("Jacob", 30, 2);
         treasure = new Treasure(TreasureType.COIN);
         room1 = new Room("1", enemy, null);
         room2 = new Room("2", null, treasure);
@@ -41,6 +41,18 @@ public class QuestTest {
     @Test
     public void startsWithPlayersInFirstRoom() {
         quest.playNextRoom();
+        Room room = quest.getCurrentRoom();
+        assertEquals(1, room.countPlayers());
+    }
+
+    @Test
+    public void movePlayersToNextRoomWhenComplete() {
+        quest.playNextRoom();
+//        kill the enemy
+        player.attack(enemy);
+        quest.checkRoomComplete();
+        quest.playNextRoom();
+        assertEquals(room2, quest.getCurrentRoom());
         Room room = quest.getCurrentRoom();
         assertEquals(1, room.countPlayers());
     }
