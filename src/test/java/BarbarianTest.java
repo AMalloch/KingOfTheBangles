@@ -23,4 +23,18 @@ public class BarbarianTest {
         barbarian.attack(rogue);
         assertEquals(100, rogue.getHealth());
     }
+
+    @Test
+    public void canChangeWeapon() {
+        Sword sword = new Sword(100);
+        rogue.changeItem(sword);
+        assertEquals(sword, rogue.getItem());
+    }
+
+    @Test
+    public void cannotChangeToSpell() {
+        ChaosBall ball = new ChaosBall(100);
+        rogue.changeItem(ball);
+        assertEquals(club, rogue.getItem());
+    }
 }
