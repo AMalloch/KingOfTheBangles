@@ -25,13 +25,15 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="425">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="e#455#456#0" expanded="true" />
                 <element signature="e#484#485#0" expanded="true" />
                 <element signature="e#519#520#0" expanded="true" />
                 <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,14 +72,12 @@
       <file leaf-file-name="WarlockTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WarlockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="376">
+              <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#599#600#0" expanded="true" />
                 <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -414,8 +414,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Creature.java" />
         <option value="$PROJECT_DIR$/src/main/java/Warlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/Wizard.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WarlockTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WarlockTest.java" />
       </list>
     </option>
   </component>
@@ -665,6 +665,9 @@
       <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 11h 39m 29s.xml">
+      <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 11h 41m 07s.xml">
       <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SwordTest - 2018.03.08 at 11h 20m 26s.xml">
@@ -936,27 +939,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="425">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
             <element signature="e#455#456#0" expanded="true" />
             <element signature="e#484#485#0" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
             <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WarlockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="376">
+          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#599#600#0" expanded="true" />
             <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
           </folding>
         </state>
       </provider>

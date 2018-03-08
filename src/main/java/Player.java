@@ -22,4 +22,8 @@ public abstract class Player {
     public int countInventory() {
         return this.inventory.size();
     }
+
+    public ArrayList<Item> getInventory() {
+        return inventory;
+    }
 }

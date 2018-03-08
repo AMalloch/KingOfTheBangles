@@ -29,5 +29,7 @@ public class WarlockTest {
     @Test
     public void hasInventory() {
         assertEquals(1, warlock.countInventory());
+        ArrayList<Item> items = warlock.getInventory();
+        assert(items.contains(ball));
     }
 }
