@@ -32,4 +32,11 @@ public class WarlockTest {
         ArrayList<Item> items = warlock.getInventory();
         assert(items.contains(ball));
     }
+
+    @Test
+    public void canAttack() {
+        Wizard wizard = new Wizard("Barry", 300, inventory, creature);
+        warlock.attack(wizard);
+        assertEquals(280, wizard.getHealth());
+    }
 }

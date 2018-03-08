@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public abstract class Player {
+public abstract class Player extends GameActor{
 
     private String name;
     private int health;
