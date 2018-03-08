@@ -1,2 +1,7 @@
-public class Sword {
+public class Sword extends Weapon {
+
+    public Sword(int power) {
+        super(power);
+    }
+
 }
