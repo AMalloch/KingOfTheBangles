@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d851dfcb-3992-4443-86ae-d30583cf3ab6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/CreatureTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Creature.java" afterPath="$PROJECT_DIR$/src/main/java/Creature.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameActor.java" afterPath="$PROJECT_DIR$/src/main/java/GameActor.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MagicPlayer.java" afterPath="$PROJECT_DIR$/src/main/java/MagicPlayer.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WarlockTest.java" afterPath="$PROJECT_DIR$/src/test/java/WarlockTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -85,45 +83,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameActor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GameActor.java">
+      <file leaf-file-name="MagicPlayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MagicPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="310">
+              <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Creature.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Creature.java">
+      <file leaf-file-name="WarlockTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WarlockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreatureTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CreatureTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="174">
+              <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -449,8 +427,6 @@
         <option value="$PROJECT_DIR$/src/main/java/DeliciousHerbs.java" />
         <option value="$PROJECT_DIR$/src/main/java/IAttack.java" />
         <option value="$PROJECT_DIR$/src/main/java/Wizard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MagicPlayer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WarlockTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ISelect.java" />
         <option value="$PROJECT_DIR$/src/main/java/Warlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/MeleePlayer.java" />
@@ -466,6 +442,8 @@
         <option value="$PROJECT_DIR$/src/main/java/GameActor.java" />
         <option value="$PROJECT_DIR$/src/main/java/Creature.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreatureTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MagicPlayer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WarlockTest.java" />
       </list>
     </option>
   </component>
@@ -705,12 +683,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 12h 20m 57s.xml">
-      <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 12h 21m 42s.xml">
-      <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 13h 11m 38s.xml">
       <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
     </history-entry>
@@ -735,6 +707,12 @@
     <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 13h 47m 50s.xml">
       <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 13h 53m 05s.xml">
+      <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_KingOfTheBangles_test - 2018.03.08 at 14h 03m 36s.xml">
+      <configuration name="All in KingOfTheBangles_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -748,7 +726,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1002,18 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WarlockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rogue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1054,14 +1020,6 @@
             <element signature="e#106#107#0" expanded="true" />
             <element signature="e#149#150#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Damageable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,6 +1077,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CreatureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GameActor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1136,31 +1115,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MagicPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Damageable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="60" lean-forward="true" selection-start-line="0" selection-start-column="60" selection-end-line="0" selection-end-column="60" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Creature.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MagicPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="310">
+          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CreatureTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WarlockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="174">
+          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -20,5 +20,13 @@ public abstract class MagicPlayer extends Player implements IAttack{
         }
     }
 
-
+    @Override
+    public void takeDamage(int damage) {
+//        get the Creature to take damage if its alive
+        if (this.creature.getHealth() > 0) {
+            this.creature.takeDamage(damage);
+            damage = 0;
+        }
+        super.takeDamage(damage);
+    }
 }
