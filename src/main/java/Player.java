@@ -2,7 +2,7 @@ import com.sun.org.apache.bcel.internal.generic.Select;
 
 import java.util.ArrayList;
 
-public abstract class Player extends GameActor implements ISelect{
+public abstract class Player extends GameActor implements ISelect, IHealth{
 
     private String name;
     private int health;
@@ -20,5 +20,11 @@ public abstract class Player extends GameActor implements ISelect{
 
     public void setItem(Item item) {
         this.item = item;
+    }
+
+    @Override
+    public void increaseHealth(int power){
+        int newHealth = getHealth() + power;
+        setHealth(newHealth);
     }
 }

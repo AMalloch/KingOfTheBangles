@@ -16,7 +16,13 @@ public abstract class GameActor implements Damageable {
         return health;
     }
 
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
     public void takeDamage(int damage){
         this.health -= damage;
     }
+
+
 }
