@@ -1,4 +1,4 @@
 public interface IAttack {
 
-    String attack(GameActor gameActor);
+    void attack(GameActor gameActor);
 }

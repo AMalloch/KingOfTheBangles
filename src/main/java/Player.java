@@ -15,8 +15,16 @@ public abstract class Player extends GameActor{
         this.selectedItem = this.inventory.get(0);
     }
 
+    public String getName() {
+        return name;
+    }
+
     public int getHealth() {
         return health;
+    }
+
+    public Item getSelectedItem() {
+        return selectedItem;
     }
 
     public int countInventory() {
@@ -26,4 +34,6 @@ public abstract class Player extends GameActor{
     public ArrayList<Item> getInventory() {
         return inventory;
     }
+
+
 }
