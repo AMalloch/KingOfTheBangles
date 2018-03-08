@@ -1,6 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import static junit.framework.TestCase.assertFalse;
 import static org.junit.Assert.assertEquals;
 
 public class TreasureTest {
@@ -20,5 +21,16 @@ public class TreasureTest {
     @Test
     public void canGetValueFromType() {
         assertEquals(60, treasure.getValue());
+    }
+
+    @Test
+    public void startsUncollected() {
+        assertFalse(treasure.isCollected());
+    }
+
+    @Test
+    public void canCollect() {
+        treasure.getCollected();
+        assert(treasure.isCollected());
     }
 }
